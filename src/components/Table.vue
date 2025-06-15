@@ -106,7 +106,7 @@ const selectedObjectTypes = ref([])
 const selectedOrbitCodes = ref([])
 
 const objectTypes = ['All Objects', 'PAYLOAD', 'DEBRIS', 'ROCKET BODY']
-const orbitCodes = ['LEO', 'LEO1', 'LEO2', 'LEO3', 'LEO4', 'MEO']
+const orbitCodes = ['LEO', 'LEO1', 'LEO2', 'LEO3', 'LEO4', 'MEO','GEO','HEO','IGO','EGO','NSO','MGO','LMO','ESO','UNKNOWN']
 
 const fetchData = async () => {
     try {
