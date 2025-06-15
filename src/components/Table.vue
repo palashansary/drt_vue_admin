@@ -28,8 +28,8 @@
             </div>
 
             <div class="filter-actions">
-                <button @click="applyFilters">Apply</button>
-                <button @click="clearAllFilters">Clear</button>
+                <button @click="applyFilters" class="apply">Apply</button>
+                <button @click="clearAllFilters" class="clear">Clear</button>
             </div>
         </div>
 
@@ -282,7 +282,16 @@ watch(pageSize, () => {
     padding: 10px 14px;
     border-radius: 6px;
     border: none;
-    background: #33394d;
+    background: green;
+    color: #ddd;
+    cursor: pointer;
+}
+
+.filter-actions .clear {
+    padding: 10px 14px;
+    border-radius: 6px;
+    border: none;
+    background: red;
     color: #ddd;
     cursor: pointer;
 }
