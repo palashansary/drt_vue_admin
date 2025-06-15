@@ -2,7 +2,7 @@
 
 # 📦 Satellite Objects Dashboard
 
-![Demo](/demo.png)
+![Demo](./demo.png)
 
 A clean, dark-themed Vue 3 dashboard to browse and manage satellite object data, with sorting, pagination, and dynamic filtering functionality.
 
